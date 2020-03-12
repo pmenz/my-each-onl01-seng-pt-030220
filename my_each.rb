@@ -1,5 +1,5 @@
 def my_each(a)
-
+i=0 
 if block_given? then  
   puts "This block should not run!"
  
