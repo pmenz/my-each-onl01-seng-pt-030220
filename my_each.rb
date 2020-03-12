@@ -7,7 +7,7 @@ def my_each(a)
   
   else
     while i < a.length
-    puts a[i]
+    yield puts a[i]
     i += 1
     
   end
