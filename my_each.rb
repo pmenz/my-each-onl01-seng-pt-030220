@@ -1,11 +1,10 @@
 def my_each(a)
   
- yield(a)
+ yield
  return a 
  end
 
-  while i < a.length 
-  puts a[i]
-  i += 1 
-  
-end
+my_each { 
+    while i < a.lenght
+    puts a[i]
+    i += 1 }
