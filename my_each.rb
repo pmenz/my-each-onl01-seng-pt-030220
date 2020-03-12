@@ -7,5 +7,5 @@ if !block_given?
      while i < a.lenght
      yield (puts a[i] )
      i += 1  
-     
+  end   
 end   
