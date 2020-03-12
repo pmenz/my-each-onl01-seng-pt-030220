@@ -1,12 +1,9 @@
 def my_each(a)
-  
-  
-    while i < a.length
-    puts a[i]
-    i += 1
-    
+  a=[]
+  yield
+  a
   end
-my_each {
-end
+
+my_each { while i < a.length puts a[i]  i += 1 }
 
 end
