@@ -3,7 +3,7 @@ i=0
 if !block_given?
   puts "This block should not run!"
 
- elsif
+ else
      while i < a.lenght
      yield (puts a[i] )
      i += 1  
