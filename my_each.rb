@@ -4,7 +4,7 @@ def my_each(a)
  return a 
  end
 
-my_each { 
+my_each 
     while i < a.lenght
     puts a[i]
     i += 1 end
