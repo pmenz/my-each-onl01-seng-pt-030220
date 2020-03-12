@@ -1,7 +1,7 @@
 def my_each(a)
 i=0 
 if !block_given?
-   "This block should not run!"
+  
 
  else
      while i < a.length
