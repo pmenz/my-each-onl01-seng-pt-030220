@@ -8,4 +8,6 @@ if !block_given?
      yield (puts a[i] )
      i += 1  
   end   
-end   
+end 
+return a
+end
