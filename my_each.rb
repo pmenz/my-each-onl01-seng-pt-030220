@@ -1,7 +1,7 @@
 def my_each(a)
   
-  yield(a)
-  
+ yield(a)
+ return a 
  end
 
   my_each{ while i < a.length 
