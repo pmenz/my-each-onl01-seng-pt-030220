@@ -1,6 +1,6 @@
 def my_each(a)
 
-if block_given?!
+if block_given?! do
   puts "This block should not run!"
  
  elsif
