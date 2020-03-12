@@ -1,3 +1,16 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(a)
+  i=0
+  
+  if a.lenght == 0 
+    puts a
+    return
+  
+  else
+    while i < a.lenght
+    yield (puts a[i])
+    i += 1
+    
+  end
+end
+
 end
