@@ -4,12 +4,7 @@ if block_given? then false
   puts "This block should not run!"
  
  elsif
- yield my_each
- return a 
+     while i < a.lenght
+     yield (puts a[i] )
+     i += 1 end 
  end
-
-my_each {
-    while i < a.lenght
-    puts a[i]
-    i += 1 end }
-    end
