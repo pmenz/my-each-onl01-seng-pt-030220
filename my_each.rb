@@ -5,9 +5,9 @@ if !block_given?
 
  else
      while i < a.length
-     yield (puts a[i] )
+     yield ( a[i] )
      i += 1  
   end   
 end 
-return a
+
 end
