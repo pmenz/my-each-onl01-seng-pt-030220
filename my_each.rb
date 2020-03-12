@@ -1,5 +1,9 @@
 def my_each(a)
-  
+
+if block_given?!
+  puts "This block should not run!"
+ 
+ elsif
  yield my_each
  return a 
  end
