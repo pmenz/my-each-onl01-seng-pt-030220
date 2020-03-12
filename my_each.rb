@@ -6,5 +6,5 @@ if block_given? then false
  elsif
      while i < a.lenght
      yield (puts a[i] )
-     i += 1 end 
+     i += 1  
  end
