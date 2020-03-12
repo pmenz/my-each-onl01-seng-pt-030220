@@ -6,6 +6,7 @@ def my_each(a)
     i += 1
     
   end
+my_each {
 end
 
 end
